@@ -5,7 +5,7 @@
  * @author lujiang
  * @date 2019-02-23 14:07
  */
-public class Palindrome {
+public class PalindromeNumber {
     public boolean isPalindrome(int x) {
         // 特殊情况：
         // 如上所述，当 x < 0 时，x 不是回文数。

@@ -5,7 +5,7 @@
  * @author lujiang
  * @date 2019-02-23 13:53
  */
-public class Reverse {
+public class ReverseInteger {
 
     public int reverse(int x) {
         int rev = 0;

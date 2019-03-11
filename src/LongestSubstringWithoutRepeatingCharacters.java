@@ -10,7 +10,7 @@ import java.util.Set;
  * @author lujiang
  * @date 2019-02-21 18:33
  */
-public class LengthOfLongestSubstring {
+public class LongestSubstringWithoutRepeatingCharacters {
 
     public int lengthOfLongestSubstring1(String s) {
         int n = s.length();
