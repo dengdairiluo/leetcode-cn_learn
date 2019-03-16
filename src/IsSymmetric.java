@@ -1,3 +1,5 @@
+import base.TreeNode;
+
 /**
  * Created with IntelliJ IDEA.
  * Description:
@@ -23,14 +25,4 @@ public class IsSymmetric {
         }
     }
 
-
-    public class TreeNode {
-        int val;
-        TreeNode left;
-        TreeNode right;
-
-        TreeNode(int x) {
-            val = x;
-        }
-    }
 }

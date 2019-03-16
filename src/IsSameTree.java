@@ -1,3 +1,5 @@
+import base.TreeNode;
+
 /**
  * Created with IntelliJ IDEA.
  * Description:
@@ -14,16 +16,6 @@ public class IsSameTree {
             return isSameTree(p.left, q.left) && isSameTree(p.right, q.right);
         } else {
             return false;
-        }
-    }
-
-    public class TreeNode {
-        int val;
-        TreeNode left;
-        TreeNode right;
-
-        TreeNode(int x) {
-            val = x;
         }
     }
 }

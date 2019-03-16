@@ -1,3 +1,4 @@
+import base.TreeNode;
 import org.omg.CORBA.PUBLIC_MEMBER;
 
 /**
@@ -28,15 +29,5 @@ public class SortedArrayToBST {
         root.left = buildTreeNode(nums, l, mid - 1);
         root.right = buildTreeNode(nums, mid + 1, r);
         return root;
-    }
-
-    public class TreeNode {
-        int val;
-        TreeNode left;
-        TreeNode right;
-
-        TreeNode(int x) {
-            val = x;
-        }
     }
 }

@@ -1,3 +1,5 @@
+import base.TreeNode;
+
 /**
  * Created with IntelliJ IDEA.
  * Description:
@@ -17,17 +19,5 @@ public class MinDepth {
             return minLeft + minRight + 1;
         }
         return minLeft > minRight ? minRight + 1 : minLeft + 1;
-    }
-
-
-
-    public class TreeNode {
-        int val;
-        TreeNode left;
-        TreeNode right;
-
-        TreeNode(int x) {
-            val = x;
-        }
     }
 }

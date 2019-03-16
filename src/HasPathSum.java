@@ -1,3 +1,5 @@
+import base.TreeNode;
+
 /**
  * Created with IntelliJ IDEA.
  * Description:
@@ -17,16 +19,6 @@ public class HasPathSum {
         } else {
             return hasPathSum(root.left, sum - root.val) ||
                     hasPathSum(root.right, sum - root.val);
-        }
-    }
-
-    public class TreeNode {
-        int val;
-        TreeNode left;
-        TreeNode right;
-
-        TreeNode(int x) {
-            val = x;
         }
     }
 }
