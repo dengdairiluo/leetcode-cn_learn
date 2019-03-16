@@ -1,3 +1,5 @@
+import base.ListNode;
+
 /**
  * Created with IntelliJ IDEA.
  * Description:
@@ -21,12 +23,4 @@ public class DeleteDuplicates {
         return head;
     }
 
-    public class ListNode {
-        int val;
-        ListNode next;
-
-        ListNode(int x) {
-            val = x;
-        }
-    }
 }

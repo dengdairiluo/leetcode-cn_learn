@@ -1,3 +1,5 @@
+import base.ListNode;
+
 /**
  * Created with IntelliJ IDEA.
  * Description:
@@ -18,14 +20,5 @@ public class RemoveLinkedListElements {
             }
         }
         return result.next;
-    }
-
-    public class ListNode {
-        int val;
-        ListNode next;
-
-        ListNode(int x) {
-            val = x;
-        }
     }
 }

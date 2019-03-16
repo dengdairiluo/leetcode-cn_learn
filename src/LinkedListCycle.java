@@ -1,3 +1,5 @@
+import base.ListNode;
+
 import java.util.HashSet;
 import java.util.Set;
 
@@ -42,13 +44,5 @@ public class LinkedListCycle {
     }
 
 
-    class ListNode {
-        int val;
-        ListNode next;
 
-        ListNode(int x) {
-            val = x;
-            next = null;
-        }
-    }
 }

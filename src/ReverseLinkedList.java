@@ -1,3 +1,5 @@
+import base.ListNode;
+
 import java.util.List;
 
 /**
@@ -29,15 +31,6 @@ public class ReverseLinkedList {
         head.next.next = head;
         head.next = null;
         return p;
-    }
-
-    public static class ListNode {
-        int val;
-        ListNode next;
-
-        ListNode(int x) {
-            val = x;
-        }
     }
 
 }

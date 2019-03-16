@@ -1,3 +1,5 @@
+import base.ListNode;
+
 import java.util.List;
 
 /**
@@ -47,15 +49,5 @@ public class IntersectionOfTwoLinkedLists {
             pb = pb.next;
         }
         return null;
-    }
-
-    public class ListNode {
-        int val;
-        ListNode next;
-
-        ListNode(int x) {
-            val = x;
-            next = null;
-        }
     }
 }
